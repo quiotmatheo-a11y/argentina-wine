@@ -1,0 +1,147 @@
+/* General style */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8eee7;
+  color: #3b2a24;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* Titles */
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color: #7c3f2c;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  color: #7c3f2c;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #d9a689;
+  padding: 10rem 1rem 6rem 1rem;
+  text-align: center;
+  animation: fadeIn 2s forwards;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #7c3f2c;
+  border-color: #7c3f2c;
+  border-radius: 2rem;
+  padding: 0.7rem 1.5rem;
+}
+
+.btn-primary:hover {
+  background-color: #5f2f22;
+  border-color: #5f2f22;
+}
+
+.btn-outline-primary {
+  color: #7c3f2c;
+  border-color: #7c3f2c;
+  border-radius: 2rem;
+}
+
+.btn-outline-primary:hover {
+  background-color: #7c3f2c;
+  border-color: #7c3f2c;
+}
+
+/* Carousel */
+.carousel-img {
+  height: 32rem;
+  object-fit: cover;
+}
+
+/* Information Section */
+.info-section {
+  background-color: #f2d6c8;
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  background-color: #fffaf7;
+}
+
+.card-img-top {
+  height: 12rem;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #efd2bf;
+}
+
+.form-control {
+  border-radius: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #7c3f2c;
+  color: white;
+}
+
+footer a {
+  color: #f8eee7;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* CSS Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  .carousel-img {
+    height: 22rem;
+  }
+}
